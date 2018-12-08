@@ -60,7 +60,6 @@ public class Game extends JFrame implements ActionListener {
       for (int x = 0; x < board.length; x++) {
 
         JButton temp = new JButton();
-        temp.setBackground(Color.BLUE);
         temp.setPreferredSize(new Dimension(50, 50));
         temp.setFocusPainted(false);
         temp.addActionListener(this);
