@@ -26,7 +26,7 @@ public class Game extends JFrame implements ActionListener {
   /** ImageIcon with picture of "O" for Player 2. */
   private static ImageIcon playerTwo = new ImageIcon("src/media/oImage.png");
 
-  /** ImageIcon to hold currentPlayers ImageIcon either "X" or "O". */
+  /** ImageIcon to hold currentPlayers ImageIcon either "x" or "o". */
   private static ImageIcon currentPlayer = playerOne;
 
   /** Array to hold both players number identifiers. */
